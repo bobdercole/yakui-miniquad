@@ -265,28 +265,10 @@ checksum = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
 [[package]]
 name = "yakui"
 version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "64bf2bf33c6eb5707ce197e7fcbc5ccf6b9605d0955bc30541f6fb3faf85a1dc"
+source = "git+https://github.com/bobdercole/yakui.git?branch=temp%2Fclipping-viewport-offset#84497f06b20b00a18412af3cdaae9e8e203e6929"
 dependencies = [
- "yakui-core 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "yakui-core",
  "yakui-widgets",
-]
-
-[[package]]
-name = "yakui-core"
-version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "14aa44868749806008b2879b7c58849467fab72b46ccc873cf978ee208576a52"
-dependencies = [
- "anymap",
- "bitflags",
- "fast-srgb8",
- "glam",
- "keyboard-types",
- "log",
- "profiling",
- "smallvec",
- "thunderdome",
 ]
 
 [[package]]
@@ -311,19 +293,18 @@ version = "0.4.1"
 dependencies = [
  "miniquad",
  "yakui",
- "yakui-core 0.3.0 (git+https://github.com/bobdercole/yakui.git?branch=temp%2Fclipping-viewport-offset)",
+ "yakui-core",
 ]
 
 [[package]]
 name = "yakui-widgets"
 version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7c368271cb07a7b052bf9febd42f51bde4baca7cc6a430f7c5496837d14e1c10"
+source = "git+https://github.com/bobdercole/yakui.git?branch=temp%2Fclipping-viewport-offset#84497f06b20b00a18412af3cdaae9e8e203e6929"
 dependencies = [
  "fontdue",
  "smol_str",
  "thunderdome",
- "yakui-core 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "yakui-core",
 ]
 
 [[package]]
