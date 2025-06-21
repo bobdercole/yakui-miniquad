@@ -12,7 +12,7 @@ categories = ["gui"]
 
 [dependencies]
 miniquad = { version = "0.4.8", default-features = false }
-yakui-core = { git = "https://github.com/bobdercole/yakui.git", rev = "8d775c33c4cd08233ab50bc55ec9750e51d96504" }
+yakui-core = { git = "https://github.com/bobdercole/yakui.git", branch = "fix/clipping-viewport-offset" }
 
 [dev-dependencies]
 yakui = "0.3.0"

@@ -307,7 +307,7 @@ dependencies = [
 [[package]]
 name = "yakui-core"
 version = "0.3.0"
-source = "git+https://github.com/bobdercole/yakui.git?rev=8d775c33c4cd08233ab50bc55ec9750e51d96504#8d775c33c4cd08233ab50bc55ec9750e51d96504"
+source = "git+https://github.com/bobdercole/yakui.git?branch=fix%2Fclipping-viewport-offset#8d775c33c4cd08233ab50bc55ec9750e51d96504"
 dependencies = [
  "anymap",
  "bitflags",
@@ -326,7 +326,7 @@ version = "0.4.1"
 dependencies = [
  "miniquad",
  "yakui",
- "yakui-core 0.3.0 (git+https://github.com/bobdercole/yakui.git?rev=8d775c33c4cd08233ab50bc55ec9750e51d96504)",
+ "yakui-core 0.3.0 (git+https://github.com/bobdercole/yakui.git?branch=fix%2Fclipping-viewport-offset)",
 ]
 
 [[package]]
