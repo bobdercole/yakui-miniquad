@@ -274,6 +274,7 @@ impl EventHandler for YakuiMiniQuad {
             self.has_keyboard_focus = self.ui.handle_event(Event::KeyChanged {
                 key: key_code,
                 down: true,
+                modifiers: None,
             });
         }
     }
@@ -283,6 +284,7 @@ impl EventHandler for YakuiMiniQuad {
             self.has_keyboard_focus = self.ui.handle_event(Event::KeyChanged {
                 key: key_code,
                 down: false,
+                modifiers: None,
             });
         }
     }
